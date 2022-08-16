@@ -182,6 +182,8 @@ Links to search the filtered TwitterSpace appear at the bottom of the page under
   <i>You'll need an API Key to use this tool. You can get them free from <a href="https://www.propublica.org/datastore/api/propublica-congress-api">https://www.propublica.org/datastore/api/propublica-congress-api</a> .</i><br><br>
  
 
+							
+							<div id="AllDone">	</div>						
 
 <button onclick="Parade()">Parade them Politicians!</button><br>
 
@@ -626,6 +628,10 @@ resultstart++
 });
     
     }
+	
+	var AllDone = document.getElementById("AllDone")
+AllDone.innerHTML="<b>All done!</b> Scroll down to get the links to your Twitter searches."
+	
 </script>
 
 	</body>
